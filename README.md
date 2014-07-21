@@ -6,7 +6,7 @@ for more infor please visit: https://code.google.com/p/hyphenator/
 
 
 example:
-/**
+```
 (function(w, d, $) {
 
     /**
@@ -40,4 +40,4 @@ example:
     }
     
 }(window, document, jQuery));    
-**/
+```
