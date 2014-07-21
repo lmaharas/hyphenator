@@ -28,14 +28,23 @@ example:
         return false;
     };
     
+    
+    /**
+     * Call Functions on DomReady
+     */
     $(d).ready(function () {
-       hyphenator();
+        // Set up elements with 'hyphenate' class
+        hyphenator();
 
+        // Config Hyphenator
+        // see following for more config properties:
+        // https://code.google.com/p/hyphenator/wiki/en_PublicAPI
         Hyphenator.config({
             displaytogglebox : false,
             minwordlength : 10
         });
-        
+       
+        // Run Hyphenator
         Hyphenator.run();
     }
     
